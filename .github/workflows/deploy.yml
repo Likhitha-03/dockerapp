@@ -28,7 +28,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: Likhitha-03/webapp:${{ github.sha }}
+          tags: likhithatangudu/webapp:${{ github.sha }}
+
 
       - name: Deploy to EC2 instance
         uses: appleboy/ssh-action@master
